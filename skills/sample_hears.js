@@ -7,7 +7,7 @@ This module demonstrates simple uses of Botkit's `hears` handler functions.
 In these examples, Botkit is configured to listen for certain phrases, and then
 respond immediately with a single line response.
 
-*/
+*////
 
 module.exports = function(controller) {
     
@@ -22,6 +22,7 @@ module.exports = function(controller) {
     	"Quer abrir um chamado no GLPI ?",
         "Qual a sua duvida ?",
         "Precisa falar com alguma analista",
+        "Equipe de Service Desk, 11º andar",
 	]
 	var random_index = Math.floor(Math.random() * message_options.length)
 	var chosen_message = message_options[random_index]
