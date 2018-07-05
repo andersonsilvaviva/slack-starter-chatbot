@@ -23,6 +23,7 @@ module.exports = function(controller) {
         "Qual a sua duvida ?",
         "Precisa falar com alguma analista",
         "Equipe de Service Desk, 11º andar",
+        "Analista Anderson Pirata",
 	]
 	var random_index = Math.floor(Math.random() * message_options.length)
 	var chosen_message = message_options[random_index]
