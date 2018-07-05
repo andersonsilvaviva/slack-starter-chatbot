@@ -10,8 +10,8 @@ respond immediately with a single line response.
 */
 
 module.exports = function(controller) {
-    
-   controller.hears(['^oi$',"^ola$","^tudo bem$"], 'direct_message,direct_mention', function(bot, message) {
+
+    controller.hears(['^oi$',"^ola$","^tudo bem$"], 'direct_message,direct_mention', function(bot, message) {
         bot.reply(message, "Oi tudo bem !!, meu nome é Samara sou um chatbot, vc precisa de ajuda ? ")
     });
 
